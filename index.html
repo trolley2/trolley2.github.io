@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<!--  Site Title  -->
+	<title>Site Name | Tagline</title>
+	<meta name="description" content=/>
+	<meta charset="utf-8">
+	<meta name="author" content="itssuraj.tk">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+	<link rel="stylesheet" href="slider/themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
+    
+
+
+	<!-- JS -->
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/nicescroll.js"></script>
+	<script type="text/javascript" src="js/scrollTo.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>	
+    <script type="text/javascript" src="slider/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">$(function() {
+
+	// Menu Tabular
+	var $menu_tabs = $('.menu-tabs li a'); 
+	$menu_tabs.on('click', function(e) {
+		e.preventDefault();
+		$menu_tabs.removeClass('active');
+		$(this).addClass('active');
+
+		$('.menu-item').fadeOut(300);
+		$(this.hash).delay(300).fadeIn();
+	});
+
+});</script>
+
+</head>
+<body>
+
+	<!--  Header  -->
+	<header>
+		<div class="container">
+			<div class="logo pull-left">
+				<a href="#"><img src="img/logo.png"></a>
+			</div>
+			<nav class="pull-right">
+				<ul class="list-unstyled">
+					<li><a href="#about">About</a></li>
+					<li><a href="#features">Features</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#benefits">Benefits</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+			<span class="menu-btn">menu</span>
+		</div>
+	</header>
+	<!--  End Header -->
+
+
+	<!--  Intro  -->
+	<section class="intro" id="home">
+		<div class="container">
+			<div class="intro-caption">
+				<h1 class="text-uppercase">Lorem Ipsum Dolor sit Amet</h1>
+				<p class="text-lowercase">Lorem ipsum dolor sit amet, consectetur adipiscing elit quisque tempus ac eget diam et laoreet phasellus ut nisi id leo molestie. adipiscing vitae vel quam proin eget mauris eget.</p>
+				<a href="#" class="app-store-btn text-uppercase">
+					<span>Take a tour</span>
+				</a>
+
+				<a href="#" class="app-store-btn text-uppercase">
+					<span>Get app</span>
+				</a>
+			</div>
+		</div>
+	</section>
+	<!--  End Intro -->
+
+	<!--  About  -->
+	<section class="about text-center" id="about">
+		<div class="container ">
+				<div class="col-md-12 text-center heading-about text-uppercase">
+				<h1 class="">About</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<div class="phone">
+						<img src="img/phone.png">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="about-app">
+						<h1 class="text-uppercase">Product Caption or slogan.</h1>
+						<p>Seuismod ligula ipsum vulputate tellus quisque dictum tortor at purus faucibus tincidunt, pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. </p>
+						<ul class="list-unstyled">
+							<li>Euismod ligula ipsum vulputate tellus.</li>
+							<li>Euismod ligula ipsum vulputate tellus.</li>
+							<li>Euismod ligula ipsum vulputate tellus.</li>
+							<li>Euismod ligula ipsum vulputate tellus.</li>
+							<li>Euismod ligula ipsum vulputate tellus.</li>
+						</ul>
+						<a href="#" class="app-store-btn text-uppercase" id="play-video" data-video="#">
+							<i class="fa fa-play"></i>
+							<span>About Video</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End About -->
+
+
+	<!-- Features  -->
+	<section class="features" id="features">
+		<div class="container text-center">
+				<div class="col-md-12  heading-features text-uppercase">
+					<h1 class="">Features</h1>
+				</div>
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-4 features-detail">
+					<i class="feature-icon fa fa-circle-o"></i>
+					<h1 class="text-uppercase">malesuada fames turpis.</h1>
+					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+				</div>
+				<div class="col-md-4 col-sm-4 features-detail">
+					<i class="feature-icon fa fa-circle-o"></i>
+					<h1 class="text-uppercase">malesuada fames turpis.</h1>
+					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+				</div>
+				<div class="col-md-4 col-sm-4 features-detail">
+					<i class="feature-icon fa fa-circle-o"></i>
+					<h1 class="text-uppercase">malesuada fames turpis.</h1>
+					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-4 features-detail">
+					<i class="feature-icon fa fa-circle-o"></i>
+					<h1 class="text-uppercase">malesuada fames turpis.</h1>
+					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+				</div>
+				<div class="col-md-4 col-sm-4 features-detail">
+					<i class="feature-icon fa fa-circle-o"></i>
+					<h1 class="text-uppercase">malesuada fames turpis.</h1>
+					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+				</div>
+				<div class="col-md-4 col-sm-4 features-detail">
+					<i class="feature-icon fa fa-circle-o"></i>
+					<h1 class="text-uppercase">malesuada fames turpis.</h1>
+					<p class="text-lowercase">vel ultrices mauris libero id diam. Vivamus tellus sagittis facilisis nisi quis mollis risus quisque ultrices elit.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End Features -->
+
+	<!--  Team -->
+	<section class="team" id="team">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12  heading-features text-uppercase">
+					<h1 class="">Team</h1>
+				</div>
+				<div class="col-md-12  heading-features text-uppercase">
+					<p class="section-text">Who's in the house!</p>
+				</div>
+				<div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+					<div class="team-wrapper">
+						<img src="img/team1.jpg" class="img-responsive" alt="team img">
+							<div class="team-des">
+								<h4>Cindy</h4>
+								<h3>Senior Designer</h3>
+								<hr>
+								<ul class="team-social-icon">
+									<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
+									<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+									<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
+								</ul>
+							</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6 wow fadeIn" data-wow-delay="0.9s">
+					<div class="team-wrapper">
+						<img src="img/team2.jpg" class="img-responsive" alt="team img">
+							<div class="team-des">
+								<h4>Cindy</h4>
+								<h3>Senior Designer</h3>
+								<hr>
+								<ul class="team-social-icon">
+									<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
+									<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+									<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
+								</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End Team -->
+
+	<!--  Benefits -->
+	<section class="benefits" id="benefits">
+		<div class="container text-center">
+			<div class="col-md-12  heading-benefits text-uppercase">
+					<h1 class="">Benefits</h1>
+			</div>
+			<div class="col-md-12  heading-features text-uppercase">
+					<p class="section-text">Why choose us!</p>
+				</div>
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<div class="container">
+						<ul class="menu-tabs">
+							<li><a class="active" href="#item-1">1st END</a></li>
+							<li><a href="#item-2">2nd END</a></li>
+						</ul>
+						<section class="menu-wrapper">
+							<article id="item-1" class="menu-item item-active">
+								<div class="slider-wrapper theme-light">
+						            <div id="slider" class="nivoSlider">
+						                <img src="slider/demo/images/toystory.jpg" data-thumb="slider/demo/images/toystory.jpg" alt="" />
+						                <a href="http://dev7studios.com"><img src="slider/demo/images/up.jpg" data-thumb="slider/demo/images/up.jpg" alt="" title="This is an example of a caption" /></a>
+						                <img src="slider/demo/images/walle.jpg" data-thumb="slider/demo/images/walle.jpg" alt="" data-transition="slideInLeft" />
+						                <img src="slider/demo/images/nemo.jpg" data-thumb="slider/demo/images/nemo.jpg" alt="" title="#htmlcaption" />
+						            </div>
+						            <div id="htmlcaption" class="nivo-html-caption">
+						                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+						            </div>
+						        </div>
+							</article>
+							
+							<article id="item-2" class="menu-item">
+								<h3>Contenido Dos</h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, dignissimos nam dolor est. Ad vel eum voluptates rerum. Harum quia dolore architecto ducimus, rem porro minus perferendis ab eveniet aliquid!</p>
+							</article>
+						</section>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--  End Benefits -->
+
+	<!--  Contact -->
+	<section class="contact" id="contact">
+		<div class="container text-center">
+				<div class="col-md-12  heading-features text-uppercase">
+					<h1 class="">Contact</h1>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<i class="fa fa-3x fa-envelope-o"></i>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<i class="fa fa-3x fa-mobile-phone"></i>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<i class="fa fa-3x fa-facebook"></i>
+				</div>
+				<div class="col-md-3 col-sm-6">
+					<i class="fa fa-3x fa-twitter fa-contact"></i>
+				</div>
+		</div>
+	</section>
+	<!--  End Contact -->
+
+	<!--  Footer  -->
+	<footer class="footer">
+		<p class="copyright pull-left">&copy; 2016 <a href="#" target="_blank"><strong>Site Name</strong></a>. All Rights Reserved</p>
+		<p class="credit pull-right">Designed by <a href="#" target="_blank"><strong>itssuraj</strong></a>.</p>
+	</footer>
+	<!--  End Footer  -->
+
+</body>
+</html>
