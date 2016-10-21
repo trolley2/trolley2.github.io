@@ -163,7 +163,7 @@ header nav li a:focus{
 }
 
 .intro .intro-caption p{
-	color: #6d6c6c;
+	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-size: 16px;
 	line-height: 30px;
@@ -188,7 +188,25 @@ a.app-store-btn:focus{
 	border-color: #41c27d;
 	color: #41c27d!important;
 }
+a.tour-btn{
+	display: inline-block;
+	text-decoration: none;
+	padding: 15px 40px;
+	border: 2px solid #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	margin: 20px 20px 10px 0;
 
+	color: #fff;
+	font-family: "open_semibold", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+a.tour-btn:hover,
+a.tour-btn:focus{
+	border-color: #41c27d;
+	color: #41c27d!important;
+}
 
 /*		About 	*/
 
