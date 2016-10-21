@@ -783,16 +783,16 @@ padding: 1px;
 
 }
 
-@media (m-width: 320px) and (max-width: 360px) {
+@media (min-width: 320px) and (max-width: 360px) {
 
 	.menu-tabs{
-		margin-left: 0px;
+		margin-left: 0px !important;
 	}
 	footer .copyright{
-		margin-left: 40px;
+		margin-left: 60px !important;
 	}
 	footer .credit{
-		margin-right: 100px;
+		margin-right: 120px !important;
 	}
 }
 
