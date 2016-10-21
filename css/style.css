@@ -185,8 +185,9 @@ a.app-store-btn{
 }
 a.app-store-btn:hover,
 a.app-store-btn:focus{
-	border-color: #41c27d;
-	color: #41c27d!important;
+	border-color:#4ECDC4;
+	color: #4ECDC4!important;
+
 }
 a.tour-btn{
 	display: inline-block;
@@ -204,8 +205,8 @@ a.tour-btn{
 }
 a.tour-btn:hover,
 a.tour-btn:focus{
-	border-color: #41c27d;
-	color: #41c27d!important;
+	border-color: #4ECDC4;
+	color: #4ECDC4!important;
 }
 
 /*		About 	*/
@@ -782,7 +783,7 @@ padding: 1px;
 
 }
 
-@media (min-width: 320px) {
+@media (m-width: 320px) and (max-width: 360px) {
 
 	.menu-tabs{
 		margin-left: 0px;
@@ -794,19 +795,7 @@ padding: 1px;
 		margin-right: 100px;
 	}
 }
-@media (max-width: 360px) {
 
-	.menu-tabs{
-		margin-left: 0px;
-	}
-	footer .copyright{
-		margin-left: 60px;
-	}
-	footer .credit{
-		margin-right: 120px;
-	}
-
-}
 @media (min-width: 768px) and (max-width: 980px){
 
 	.menu-tabs{
