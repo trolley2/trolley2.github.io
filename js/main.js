@@ -3,6 +3,9 @@ $(window).load(function() {
     animation: "slide"
   });
 });
+
+
+
 $(document).ready(function(){
 
 	//Navigation menu scrollTo
@@ -60,7 +63,7 @@ $(document).ready(function(){
 
 
 	//parallax effect initialization
-	$('.hero').parallax("50%", 0.3);
+	$('.intro').parallax("50%", 0.3);
 
 
 
