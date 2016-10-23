@@ -1,6 +1,9 @@
 $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
+
 
 
 $(document).ready(function(){
@@ -60,7 +63,7 @@ $(document).ready(function(){
 
 
 	//parallax effect initialization
-	$('.hero').parallax("50%", 0.3);
+	$('.intro').parallax("50%", 0.3);
 
 
 
