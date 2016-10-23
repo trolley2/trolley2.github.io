@@ -417,7 +417,7 @@ margin-bottom: 50px;
   font-size: 14px;
   font-weight: bold;
 }
-#team .col-md-6 {
+#team .col-md-3 {
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -432,7 +432,6 @@ margin-bottom: 50px;
   opacity: 0;
   width: 100%;
   height: 100%;
-  max-width: 300px;
   text-align: center;
   vertical-align: middle;
   top: 0;
@@ -460,7 +459,6 @@ margin-bottom: 50px;
 }
 #team img {
   margin: 0 auto;
-  max-width: 300px;
   border-radius: 50%;
 }
 
@@ -552,7 +550,7 @@ width: 50px;
 	list-style: none;
 	overflow: hidden;
 	margin-bottom: 0px;
-	margin-left: 389px;
+	margin-left: 310px;
 }
 .menu-tabs li {
 	float: left;
@@ -561,7 +559,7 @@ width: 50px;
 	text-decoration: none;
 }
 .menu-tabs a {
-	width: 102.55px;
+	width: 100%;
 	height: 50px;
 	display:inline-block;
 	background:#bbb;
@@ -579,6 +577,14 @@ width: 50px;
 	-ms-transition:opacity .1s cubic-bezier(0.694,.0482,.335,1);
 	-o-transition:opacity .1s cubic-bezier(0.694,.0482,.335,1);
 	transition:opacity .1s cubic-bezier(0.694,.0482,.335,1);
+}
+.slider-wrapper { 
+	width: 80%; 
+	margin:  auto;
+}
+.slider-wrapper2 { 
+	width: 80%; 
+	margin:  auto;
 }
 .menu-tabs a:hover {
 	opacity:.9;
@@ -799,7 +805,7 @@ padding: 1px;
 @media (min-width: 768px) and (max-width: 980px){
 
 	.menu-tabs{
-		margin-left: 197px;
+		margin-left: 130px;
 	}
 	
 	/*		Contact   	*/
