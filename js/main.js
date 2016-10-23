@@ -1,8 +1,8 @@
 $(window).load(function() {
-        $('#slider').nivoSlider();
-    });
-
-
+  $('.flexslider').flexslider({
+    animation: "slide"
+  });
+});
 $(document).ready(function(){
 
 	//Navigation menu scrollTo
