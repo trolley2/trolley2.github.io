@@ -20,42 +20,7 @@
 
 
 
-	<!-- JS -->
-    <script type="text/javascript" src="js/jquery.js"></script>
-	<script type="text/javascript" src="js/nicescroll.js"></script>
-  	<script defer src="js/jquery.flexslider.js"></script>
-	<script type="text/javascript" src="js/scrollTo.js"></script>
-	<script type="text/javascript" src="js/wow.js"></script>
-	<script type="text/javascript" src="js/parallax.js"></script>
-	<script type="text/javascript" src="js/main.js"></script>	
-	<script type="text/javascript">$(function() {
-
-	// Menu Tabular
-	var $menu_tabs = $('.menu-tabs li a'); 
-	$menu_tabs.on('click', function(e) {
-		e.preventDefault();
-		$menu_tabs.removeClass('active');
-		$(this).addClass('active');
-
-		$('.menu-item').fadeOut(300);
-		$(this.hash).delay(300).fadeIn();
-	});
-
-});
-	</script>
-<!-- FlexSlider -->
-  <script defer src="js/jquery.flexslider.js"></script>
-
-  <script type="text/javascript">
-    $(window).load(function(){
-      $('.flexslider').flexslider({
-        animation: "slide",
-        start: function(slider){
-          $('body').removeClass('loading');
-        }
-      });
-    });
-  </script>
+	
 </head>
 <body>
 
@@ -350,6 +315,42 @@
 		<p class="copyright pull-left">&copy; 2016 <a href="#" target="_blank"><strong>Site Name</strong></a>. All Rights Reserved</p>
 		<p class="credit pull-right">Designed by <a href="#" target="_blank"><strong>itssuraj</strong></a>.</p>
 	</footer>
-	<!--  End Footer  -->  
+	<!--  End Footer  -->
+<!-- JS -->
+    <script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/nicescroll.js"></script>
+  	<script defer src="js/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="js/scrollTo.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>	
+	<script type="text/javascript">$(function() {
+
+	// Menu Tabular
+	var $menu_tabs = $('.menu-tabs li a'); 
+	$menu_tabs.on('click', function(e) {
+		e.preventDefault();
+		$menu_tabs.removeClass('active');
+		$(this).addClass('active');
+
+		$('.menu-item').fadeOut(300);
+		$(this.hash).delay(300).fadeIn();
+	});
+
+});
+	</script>
+<!-- FlexSlider -->
+  <script defer src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide",
+        start: function(slider){
+          $('body').removeClass('loading');
+        }
+      });
+    });
+  </script>  
 </body>
 </html>
