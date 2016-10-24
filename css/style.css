@@ -71,7 +71,7 @@ header .logo{
 	margin: 15px 100px 0 0;
 }
 .logo img{
-	max-width: 50px;
+	max-width: 210px;
 }
 
 header .menu-btn{
@@ -138,7 +138,7 @@ header nav li a:focus{
 	position: relative;
 	width: 100%;
 	height: 720px;
-	background: url('http://res.cloudinary.com/itssuraj/image/upload/v1477287329/intro_ltxoxj.jpg') no-repeat fixed center center;	
+	background: url('http://res.cloudinary.com/itssuraj/image/upload/v1477288926/intro_km7obi.jpg') no-repeat fixed center center;	
 	background-size: cover;
 }
 
