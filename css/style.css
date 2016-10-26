@@ -71,7 +71,10 @@ header .logo{
 	margin: 15px 100px 0 0;
 }
 .logo img{
-	max-width: 210px;
+	max-width: 140px;
+}
+.logo img:hover{
+	opacity:0.7;
 }
 
 header .menu-btn{
