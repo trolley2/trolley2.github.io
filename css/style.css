@@ -321,6 +321,28 @@ a.app-store-btn,
 }
 
 
+/*		Clients 		*/
+
+.clients{
+	width: 100%;
+	padding: 25px 0;
+	background: #f3f3f3;
+}
+
+.clients ul{
+	margin: 0;
+}
+
+.clients li{
+	position: relative;
+	height: 100%;
+}
+
+.clients li:first-child{
+	margin-left: 0;
+}
+
+
 
 /*		Features 		*/
 
