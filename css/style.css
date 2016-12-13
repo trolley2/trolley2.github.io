@@ -341,7 +341,11 @@ a.app-store-btn,
 .clients li:first-child{
 	margin-left: 0;
 }
-
+@media (max-width:990px){
+	.clients li{
+		margin-bottom:10px;
+	}
+}
 
 
 /*		Features 		*/
