@@ -674,6 +674,9 @@ width: 50px;
 #contact .fa{
 	color: #4ECDC4;
 }
+#contact a:hover{
+	opacity:0.7;
+}
 
 /*		Footer 		*/
 footer{
